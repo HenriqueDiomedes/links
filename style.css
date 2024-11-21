@@ -11,7 +11,7 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.493);
 }
 
 .perfil {
@@ -34,24 +34,26 @@ body {
 }
 
 .link {
-    display: flex;
+    width: 180px;
+    height: 50px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     padding: 10px 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: rgba(255, 255, 255, 0.5);
     transition: opacity 0.2s ease;
 }
 
 .link:hover {
     opacity: 0.8;
+    box-shadow: 2px 2px 8px black;
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 10px;
@@ -78,10 +80,10 @@ body {
         padding: 5px 10px;
     }
     .icon {
-        width: 25px;
-        height: 25px;
+        width: 40px;
+        height: 40px;
     }
     .link span {
         font-size: 14px;
     }
-}
+} 
