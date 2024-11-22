@@ -3,7 +3,7 @@
 /* Definição da fonte e margens padrão */
 @font-face {
     font-family: 'fonte1';
-    src: url(font/zai_ArteDellaCalligrafia1929.ttf);
+    src: url(font/THIS\ IS\ INTERNET.ttf);
 }
 body {
     font-family: 'fonte1'; /* Definição da fonte */
@@ -72,7 +72,7 @@ body {
 
 /* Estilo do texto dos links */
 .link span {
-    font-size: 16px; /* Tamanho de fonte */
+    font-size: 30px; /* Tamanho de fonte */
     font-weight: bold; /* Peso da fonte */
     color: #333; /* Cor do texto */
     text-align: center; /* Alinhamento de texto */
