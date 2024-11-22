@@ -18,8 +18,7 @@ body {
 
 /* Estilo do container principal */
 .container {
-    max-width: 33
-    0px; /* Largura máxima */
+    max-width: 310px; /* Largura máxima */
     margin: 40px auto; /* Margem superior e inferior */
     padding: 20px; /* Espaço entre elementos */
     background-color: #268bdfa1; /* Cor de fundo */
