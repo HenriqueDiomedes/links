@@ -1,6 +1,12 @@
+@charset "UTF-8";
+
 /* Definição da fonte e margens padrão */
+@font-face {
+    font-family: 'fonte1';
+    src: url(font/zai_ArteDellaCalligrafia1929.ttf);
+}
 body {
-    font-family: Arial, sans-serif; /* Definição da fonte */
+    font-family: 'fonte1'; /* Definição da fonte */
     margin: 0; /* Margem superior */
     padding: 0; /* Espaço entre elementos */
     background-color: #f0f0f0; /* Cor de fundo */
