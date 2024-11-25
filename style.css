@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-/* Definição da fonte e margens padrão */
 @font-face {
     font-family: 'fonte1';
     src: url(font/THIS\ IS\ INTERNET.ttf);
@@ -8,6 +7,8 @@
 @font-face {
     font-family: 'fonte2';
     src: url(font/Paddock.otf);
+
+    /* Definição da fonte e margens padrão */
 }
 body {
     font-family: 'fonte2'; /* Definição da fonte */
@@ -92,6 +93,6 @@ body {
     transform: scale(0.9)rotate(3deg);
     background-image: radial-gradient(circle
     farthest-corner at 10% 20%, rgb(241, 36, 231)17.8%,
-    rgb(8, 224, 231)100.2%);
+    rgb(8, 224, 231)100.2%);        /*efeito gradiente*/
     transition: 0.5s;
 }
