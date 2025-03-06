@@ -14,8 +14,9 @@ body {
     font-family: 'fonte2'; /* Definição da fonte */
     margin: 0; /* Margem superior */
     padding: 0; /* Espaço entre elementos */
-    background-color: #413f3f; /* Cor de fundo */
-}
+    background-image: url(img/fundo.jpg); /* Cor de fundo */
+    background-position: center center; /* alinha a imagem no centro*/
+    background-size: 100%;  /*mostra a imagem completa*/
 
 /* Estilo do container principal */
 .container {
