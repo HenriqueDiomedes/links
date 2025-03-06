@@ -21,6 +21,8 @@ body {
     /* Espaço entre elementos */
     background-image: url(img/fundo_4.jpg);
     /* imagem de fundo */
+    background-repeat: no-repeat;
+    /*não deixa a imagem repetir*/
     background-position: center center;
     /* alinha a imagem no centro*/
     background-size: 100%;
