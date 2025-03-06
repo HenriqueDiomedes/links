@@ -25,7 +25,7 @@ body {
     /*não deixa a imagem repetir*/
     background-position: center center;
     /* alinha a imagem no centro*/
-    /*background-size: 100vh;*/
+    background-size: 100%;
     /*mostra a imagem completa*/
 
     /* Estilo do container principal */
