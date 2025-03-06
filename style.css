@@ -4,96 +4,146 @@
     font-family: 'fonte1';
     src: url(font/THIS\ IS\ INTERNET.ttf);
 }
+
 @font-face {
     font-family: 'fonte2';
     src: url(font/Paddock.otf);
 
     /* Definição da fonte e margens padrão */
 }
+
 body {
-    font-family: 'fonte2'; /* Definição da fonte */
-    margin: 0; /* Margem superior */
-    padding: 0; /* Espaço entre elementos */
-    background-image: url(img/fundo.jpg); /* Cor de fundo */
-    background-position: center center; /* alinha a imagem no centro*/
-    background-size: 100%;  /*mostra a imagem completa*/
+    font-family: 'fonte2';
+    /* Definição da fonte */
+    margin: 0;
+    /* Margem superior */
+    padding: 0;
+    /* Espaço entre elementos */
+    background-image: url(img/fundo.jpg);
+    /* Cor de fundo */
+    background-position: center center;
+    /* alinha a imagem no centro*/
+    background-size: 100%;
+    /*mostra a imagem completa*/
 
-/* Estilo do container principal */
-.container {
-    max-width: 310px; /* Largura máxima */
-    max-height: 847px;
-    margin: 40px auto; /* Margem superior e inferior */
-    padding: 20px; /* Espaço entre elementos */
-    background-color: #268bdfa1; /* Cor de fundo */
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 2px 2px 8px rgba(250, 248, 248, 0.493); /* Sombra */
-}
+    /* Estilo do container principal */
+    .container {
+        max-width: 310px;
+        /* Largura máxima */
+        max-height: 847px;
+        margin: 40px auto;
+        /* Margem superior e inferior */
+        padding: 20px;
+        /* Espaço entre elementos */
+        background-color: #268bdfa1;
+        /* Cor de fundo */
+        border-radius: 10px;
+        /* Borda arredondada */
+        box-shadow: 2px 2px 8px rgba(250, 248, 248, 0.493);
+        /* Sombra */
+    }
 
-/* Estilo da seção de perfil */
-.perfil {
-    text-align: center; /* Alinhamento de texto */
-    margin-bottom: 20px; /* Margem inferior */
-}
+    /* Estilo da seção de perfil */
+    .perfil {
+        text-align: center;
+        /* Alinhamento de texto */
+        margin-bottom: 20px;
+        /* Margem inferior */
+    }
 
-/* Estilo da imagem de perfil */
-.foto-perfil {
-    width: 100px; /* Largura */
-    height: 100px; /* Altura */
-    border-radius: 50%; /* Borda arredondada */
-    object-fit: cover; /* Ajuste de imagem */
-    margin: 0 auto; /* Margem superior e inferior */
-}
+    /* Estilo da imagem de perfil */
+    .foto-perfil {
+        width: 100px;
+        /* Largura */
+        height: 100px;
+        /* Altura */
+        border-radius: 50%;
+        /* Borda arredondada */
+        object-fit: cover;
+        /* Ajuste de imagem */
+        margin: 0 auto;
+        /* Margem superior e inferior */
+    }
 
-/* Estilo da seção de links */
-.links {
-    display: flex; /* Exibição em flexbox */
-    flex-direction: column; /* Direção da flexbox */
-    align-items: center; /* Alinhamento de itens */
-}
+    /* Estilo da seção de links */
+    .links {
+        display: flex;
+        /* Exibição em flexbox */
+        flex-direction: column;
+        /* Direção da flexbox */
+        align-items: center;
+        /* Alinhamento de itens */
+    }
 
-/* Estilo dos links */
-.link {
-    display: flex; /* Exibição em flexbox */
-    align-items: center; /* Alinhamento de itens */
-    justify-content: flex-start; /* Justificação de conteúdo */
-    width: 180px; /* Largura */
-    height: 50px; /* Altura */
-    margin-bottom: 20px; /* Margem inferior */
-    padding: 10px 20px; /* Espaço entre elementos */
-    border: 1px solid #ddd; /* Borda */
-    border-radius: 15px; /* Borda arredondada */
-    background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo */
-    transition: opacity 0.2s ease; /* Transição de opacidade */
-    text-decoration: none; /* Remoção de decoração de texto */
-}
+    /* Estilo dos links */
+    .link {
+        display: flex;
+        /* Exibição em flexbox */
+        align-items: center;
+        /* Alinhamento de itens */
+        justify-content: flex-start;
+        /* Justificação de conteúdo */
+        width: 180px;
+        /* Largura */
+        height: 50px;
+        /* Altura */
+        margin-bottom: 20px;
+        /* Margem inferior */
+        padding: 10px 20px;
+        /* Espaço entre elementos */
+        border: 1px solid #ddd;
+        /* Borda */
+        border-radius: 15px;
+        /* Borda arredondada */
+        background-color: rgba(255, 255, 255, 0.5);
+        /* Cor de fundo */
+        transition: opacity 0.2s ease;
+        /* Transição de opacidade */
+        text-decoration: none;
+        /* Remoção de decoração de texto */
+    }
 
-/* Estilo dos ícones */
-.icon {
-    position: relative; /* Posição relativa */
-    margin-right: 10px; /* Margem direita */
-    width: 40px; /* Largura */
-    height: 40px; /* Altura */
-    border-radius: 50%; /* Borda arredondada */
-    object-fit: cover; /* Ajuste de imagem */
-}
+    /* Estilo dos ícones */
+    .icon {
+        position: relative;
+        /* Posição relativa */
+        margin-right: 10px;
+        /* Margem direita */
+        width: 40px;
+        /* Largura */
+        height: 40px;
+        /* Altura */
+        border-radius: 50%;
+        /* Borda arredondada */
+        object-fit: cover;
+        /* Ajuste de imagem */
+    }
 
-/* Estilo do texto dos links */
-.link span {
-    font-family: 'fonte1';
-    font-size: 30px; /* Tamanho de fonte */
-    font-weight: bold; /* Peso da fonte */
-    color: #000000; /* Cor do texto */
-    text-align: center; /* Alinhamento de texto */
-    width: 100%; /* Largura */
-}
+    /* Estilo do texto dos links */
+    .link span {
+        font-family: 'fonte1';
+        font-size: 30px;
+        /* Tamanho de fonte */
+        font-weight: bold;
+        /* Peso da fonte */
+        color: #000000;
+        /* Cor do texto */
+        text-align: center;
+        /* Alinhamento de texto */
+        width: 100%;
+        /* Largura */
+    }
 
-/* Efeito de hover nos links */
-.link:hover {
-    opacity: 0.8; /* Opacidade */
-    box-shadow: 2px 2px 8px rgba(246, 247, 241, 0.884); /* Sombra */
-    transform: scale(0.9)rotate(3deg);
-    background-image: radial-gradient(circle
-    farthest-corner at 10% 20%, rgb(241, 36, 231)17.8%,
-    rgb(8, 224, 231)100.2%);        /*efeito gradiente*/
-    transition: 0.5s;
+    /* Efeito de hover nos links */
+    .link:hover {
+        opacity: 0.8;
+        /* Opacidade */
+        box-shadow: 2px 2px 8px rgba(246, 247, 241, 0.884);
+        /* Sombra */
+        transform: scale(0.9)rotate(3deg);
+        background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(241, 36, 231)17.8%,
+                rgb(8, 224, 231)100.2%);
+        /*efeito gradiente*/
+        transition: 0.5s;
+    }
 }
