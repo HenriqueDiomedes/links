@@ -25,9 +25,9 @@ body {
     /*não deixa a imagem repetir*/
     background-position: center center;
     /* alinha a imagem no centro*/
-    background-size: 100%;
+    background-size: cover;
     /*mostra a imagem completa*/
-
+    height: 100vh;
     /* Estilo do container principal */
     .container {
         max-width: 310px;
