@@ -27,6 +27,7 @@ body {
     /* alinha a imagem no centro*/
     background-size: 100%;
     /*mostra a imagem completa*/
+    width: 100vh; 
 
     /* Estilo do container principal */
     .container {
