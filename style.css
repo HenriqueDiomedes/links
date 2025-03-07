@@ -28,6 +28,7 @@ body {
     background-size: cover;
     /*mostra a imagem completa*/
     height: 100vh;
+
     /* Estilo do container principal */
     .container {
         max-width: 310px;
