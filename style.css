@@ -33,8 +33,7 @@ body {
     .container {
         max-width: 310px;
         /* Largura máxima */
-        max-height: 847px;
-        margin: 40px auto;
+        margin: 5px auto;
         /* Margem superior e inferior */
         padding: 20px;
         /* Espaço entre elementos */
